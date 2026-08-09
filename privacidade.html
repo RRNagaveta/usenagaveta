@@ -98,28 +98,31 @@ p,ul{font-size:17px;}
 
 <h1>Política de Privacidade</h1>
 
-<p><strong>Última atualização:</strong> 18 de julho de 2026</p>
+<p><strong>Última atualização:</strong> 9 de agosto de 2026</p>
 <p>O NaGaveta é um aplicativo desenvolvido por <strong>RR Serviços</strong> para ajudar você a guardar e organizar seus documentos pessoais e a se lembrar de datas importantes (vencimentos, lembretes e horários de remédios).</p>
 <p>Esta política explica, de forma clara e honesta, como o NaGaveta trata (ou melhor, <strong>não</strong> trata) seus dados.</p>
 <hr>
 <h2>Resumo em uma frase</h2>
-<p><strong>O NaGaveta funciona de forma local: seus documentos, seus dados e seu PIN ficam somente no seu aparelho. O aplicativo não tem servidor, não coleta, não rastreia e não envia seus dados para lugar nenhum.</strong> Os únicos envios que acontecem são os que <strong>você mesmo decide</strong> fazer — ao compartilhar um arquivo, ao exportar um backup ou ao abrir o assinador do gov.br. O recurso de leitura de texto (OCR) funciona <strong>no próprio aparelho</strong>.</p>
+<p><strong>O NaGaveta funciona de forma local: seus documentos, seus dados e seu PIN ficam no seu aparelho. O aplicativo não tem servidor próprio, não pede cadastro, não rastreia você e não sincroniza nada.</strong> Os envios que acontecem são os que <strong>você mesmo decide</strong> fazer — ao compartilhar um arquivo, ao exportar um backup ou ao abrir o assinador do gov.br. A leitura de texto (OCR) funciona <strong>no próprio aparelho</strong>.</p>
+<p>Duas ressalvas honestas, detalhadas adiante: <strong>(a)</strong> se o Backup do iCloud estiver ativado no seu iPhone, os dados do aplicativo podem fazer parte do backup do sistema, feito pela Apple; <strong>(b)</strong> o componente de leitura de texto do Google pode enviar dados técnicos de diagnóstico.</p>
 <hr>
 <h2>1. Quais dados o NaGaveta guarda e onde eles ficam</h2>
-<p>Todos os seus dados ficam <strong>exclusivamente no seu aparelho</strong>. O NaGaveta <strong>não possui servidor nem armazenamento em nuvem</strong> — não existe um "outro lado" para onde seus dados possam ir.</p>
+<p>Todos os seus dados ficam <strong>no seu aparelho</strong>. O NaGaveta <strong>não possui servidor próprio nem armazenamento em nuvem próprio</strong> — não existe um serviço nosso para onde seus dados possam ir.</p>
 <p>Ficam guardados apenas no seu dispositivo, em uma área privada que só o próprio aplicativo acessa:</p>
 <ul>
 <li>Os <strong>documentos, fotos e PDFs</strong> que você captura ou importa;</li>
 <li>Os <strong>títulos, categorias, datas de vencimento, lembretes e remédios</strong> que você cadastra;</li>
 <li>O seu <strong>PIN</strong> de acesso e suas preferências.</li>
 </ul>
-<p>Nada disso é enviado, copiado ou sincronizado para fora do seu aparelho pelo aplicativo.</p>
+<p>O aplicativo não envia, não copia e não sincroniza nada disso para fora do seu aparelho. O NaGaveta não faz backup automático próprio e não sincroniza entre dispositivos.</p>
+<p><strong>Backup do sistema (iPhone) — leia com atenção:</strong> se o <strong>Backup do iCloud</strong> estiver ativado no seu iPhone, os dados do NaGaveta podem fazer parte do backup do aparelho, como acontece com os demais aplicativos, conforme os seus ajustes do iOS. Esse backup é um recurso do sistema operacional, feito pela Apple na conta iCloud <em>de vocês</em> — <strong>não é uma sincronização do NaGaveta</strong>, e nós continuamos sem qualquer acesso aos seus dados. Você controla isso em Ajustes → seu nome → iCloud.</p>
+<p><strong>Proteção dos arquivos guardados:</strong> no iPhone, o aplicativo declara o nível mais alto da Proteção de Dados do iOS. Enquanto o aparelho está bloqueado, o sistema mantém os arquivos do NaGaveta cifrados em repouso. O aplicativo não acrescenta uma cifragem própria por cima disso.</p>
 <p><strong>Consequência importante:</strong> como os dados ficam só no seu aparelho e nós não temos cópia, se você desinstalar o aplicativo ou perder o dispositivo, <strong>os dados não poderão ser recuperados por nós</strong>, porque nós nunca tivemos acesso a eles.</p>
 <hr>
 <h2>2. Leitura automática de texto (OCR)</h2>
 <p>O NaGaveta pode ler o texto dos seus documentos para ajudar a identificar informações como datas. Essa leitura é feita <strong>inteiramente dentro do seu aparelho</strong>, usando a tecnologia de reconhecimento de texto <strong>on-device do Google (ML Kit)</strong>.</p>
 <p>A imagem do seu documento <strong>não é enviada para nenhum servidor</strong> para essa leitura.</p>
-<p><strong>Declaração honesta:</strong> o ML Kit é um componente fornecido pelo Google (através do Google Play Services). Embora o conteúdo do seu documento não seja enviado, o componente do Google pode: (a) baixar uma única vez o modelo de reconhecimento de texto; e (b) coletar dados técnicos e de diagnóstico limitados, conforme as políticas do próprio Google. Isso é parte do componente do Google, não uma função criada pelo NaGaveta. Para entender esse tratamento, consulte a Política de Privacidade do Google.</p>
+<p><strong>Declaração honesta:</strong> o ML Kit é um componente fornecido pelo Google. Embora o conteúdo do seu documento não seja enviado, esse componente pode: (a) baixar uma única vez o modelo de reconhecimento de texto; e (b) transmitir ao Google <strong>dados técnicos de diagnóstico e um identificador de instalação</strong>, não vinculados à sua identidade. Conforme os manifestos de privacidade publicados pelo próprio componente, esses dados <strong>não são usados para rastreamento entre aplicativos nem para publicidade</strong>. Isso é parte do componente do Google, não uma função criada pelo NaGaveta, e é o único envio de dados do aplicativo — ele nunca inclui os seus documentos. Para entender esse tratamento, consulte a Política de Privacidade do Google.</p>
 <hr>
 <h2>3. Conexão com a internet</h2>
 <p>O NaGaveta <strong>não faz requisições de rede para enviar seus dados.</strong> O aplicativo funciona, no seu uso normal, de forma offline.</p>
@@ -155,7 +158,7 @@ p,ul{font-size:17px;}
 <li>Login ou criação de conta;</li>
 <li>Qualquer rastreamento de comportamento.</li>
 </ul>
-<p>O aplicativo utiliza bibliotecas técnicas de terceiros apenas para funcionar (como tirar foto, abrir PDF, mostrar notificações e ler texto). O único componente que se comunica com o Google é o <strong>ML Kit / Google Play Services</strong>, descrito no item 2.</p>
+<p>O aplicativo utiliza bibliotecas técnicas de terceiros apenas para funcionar (como tirar foto, abrir PDF, mostrar notificações e ler texto). O único componente que se comunica com o Google é o <strong>ML Kit</strong>, descrito no item 2 — ele transmite diagnóstico técnico e um identificador de instalação não vinculado, e nada mais. Nós, do NaGaveta, não recebemos nem consultamos esses dados.</p>
 <hr>
 <h2>7. Permissões que o aplicativo utiliza</h2>
 <ul>
@@ -180,7 +183,7 @@ p,ul{font-size:17px;}
 <hr>
 <h2>11. Contato</h2>
 <p>Se você tiver dúvidas sobre esta política ou sobre o aplicativo, entre em contato:</p>
-<p><strong>RR Serviços</strong> E-mail: rrservicosnet@gmail.com</p>
+<p><strong>RR Serviços</strong> E-mail: contato@usenagaveta.com.br</p>
 <hr>
 <p><em>O NaGaveta foi construído com um princípio simples: seus documentos são seus. Nós não os vemos, não os guardamos e não os compartilhamos. Eles ficam onde devem estar — com você.</em></p>
 
