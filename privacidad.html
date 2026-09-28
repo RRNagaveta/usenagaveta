@@ -98,16 +98,16 @@ p,ul{font-size:17px;}
 
 <h1>Política de Privacidad</h1>
 
-<p><strong>Última actualización:</strong> 9 de agosto de 2026</p>
+<p><strong>Última actualización:</strong> 27 de septiembre de 2026</p>
 <p>NaGaveta es una aplicación desarrollada por <strong>RR Serviços</strong> para ayudarte a guardar y organizar tus documentos personales y a recordar fechas importantes (vencimientos, recordatorios y horarios de medicamentos).</p>
 <p>Esta política explica, de forma clara y honesta, cómo NaGaveta trata (o mejor dicho, <strong>no</strong> trata) tus datos.</p>
 <hr>
 <h2>Resumen en una frase</h2>
-<p><strong>NaGaveta funciona de forma local: tus documentos, tus datos y tu PIN quedan en tu dispositivo. La aplicación no tiene servidor propio, no pide registro, no te rastrea y no sincroniza nada.</strong> Los envíos que ocurren son los que <strong>tú mismo decides</strong> hacer — al compartir un archivo, al exportar una copia de seguridad o al abrir el firmador de gov.br. La lectura de texto (OCR) funciona <strong>en el propio dispositivo</strong>.</p>
-<p>Dos advertencias honestas, detalladas más abajo: <strong>(a)</strong> si la Copia en iCloud está activada en tu iPhone, los datos de la aplicación pueden formar parte de la copia del sistema, hecha por Apple; <strong>(b)</strong> el componente de reconocimiento de texto de Google puede enviar datos técnicos de diagnóstico.</p>
+<p><strong>NaGaveta funciona de forma local: tus documentos, tus datos y tu PIN quedan en tu dispositivo. Ningún servidor recibe tus documentos; la aplicación no pide registro, no te rastrea y no sincroniza nada.</strong> Los envíos que ocurren son los que <strong>tú mismo decides</strong> hacer — al compartir un archivo, al exportar una copia de seguridad o al abrir el firmador de gov.br. La lectura de texto (OCR) funciona <strong>en el propio dispositivo</strong>.</p>
+<p>Tres advertencias honestas, detalladas más abajo: <strong>(a)</strong> si la Copia en iCloud está activada en tu iPhone, los datos de la aplicación pueden formar parte de la copia del sistema, hecha por Apple; <strong>(b)</strong> el componente de reconocimiento de texto de Google puede enviar datos técnicos de diagnóstico; <strong>(c)</strong> en Android, la aplicación puede enviar un <strong>recuento anónimo de uso</strong> — si se abrió y si llegó a guardar 1, 2, 3, 4 o 5 elementos —, sin ningún dato tuyo ni de tus documentos, y puedes desactivarlo (punto 6).</p>
 <hr>
 <h2>1. Qué datos guarda NaGaveta y dónde quedan</h2>
-<p>Todos tus datos quedan <strong>en tu dispositivo</strong>. NaGaveta <strong>no tiene servidor propio ni almacenamiento en la nube propio</strong> — no existe un servicio nuestro hacia donde tus datos puedan ir.</p>
+<p>Todos tus datos quedan <strong>en tu dispositivo</strong>. NaGaveta <strong>no tiene servidor ni almacenamiento en la nube para tus datos</strong> — no existe un servicio nuestro hacia donde tus documentos puedan ir. (El único servicio nuestro es el que suma el recuento anónimo del punto 6, que no recibe nada de tus documentos.)</p>
 <p>Quedan guardados solo en tu dispositivo, en un área privada a la que solo accede la propia aplicación:</p>
 <ul>
 <li>Los <strong>documentos, fotos y PDF</strong> que capturas o importas;</li>
@@ -122,10 +122,10 @@ p,ul{font-size:17px;}
 <h2>2. Lectura automática de texto (OCR)</h2>
 <p>NaGaveta puede leer el texto de tus documentos para ayudar a identificar información como fechas. Esa lectura se hace <strong>enteramente dentro de tu dispositivo</strong>, usando la tecnología de reconocimiento de texto <strong>on-device de Google (ML Kit)</strong>.</p>
 <p>La imagen de tu documento <strong>no se envía a ningún servidor</strong> para esa lectura.</p>
-<p><strong>Declaración honesta:</strong> ML Kit es un componente proporcionado por Google. Aunque el contenido de tu documento no se envía, ese componente puede: (a) descargar una sola vez el modelo de reconocimiento de texto; y (b) transmitir a Google <strong>datos técnicos de diagnóstico y un identificador de instalación</strong>, no vinculados a tu identidad. Según los manifiestos de privacidad publicados por el propio componente, estos datos <strong>no se usan para rastreo entre aplicaciones ni para publicidad</strong>. Esto es parte del componente de Google, no una función creada por NaGaveta, y es el único envío de datos de la aplicación — nunca incluye tus documentos. Para entender ese tratamiento, consulta la Política de Privacidad de Google.</p>
+<p><strong>Declaración honesta:</strong> ML Kit es un componente proporcionado por Google. Aunque el contenido de tu documento no se envía, ese componente puede: (a) descargar una sola vez el modelo de reconocimiento de texto; y (b) transmitir a Google <strong>datos técnicos de diagnóstico y un identificador de instalación</strong>, no vinculados a tu identidad. Según los manifiestos de privacidad publicados por el propio componente, estos datos <strong>no se usan para rastreo entre aplicaciones ni para publicidad</strong>. Esto es parte del componente de Google, no una función creada por NaGaveta, y nunca incluye tus documentos. Además de él, el único envío es el recuento anónimo de uso descrito en el punto 6. Para entender ese tratamiento, consulta la Política de Privacidad de Google.</p>
 <hr>
 <h2>3. Conexión a internet</h2>
-<p>NaGaveta <strong>no hace solicitudes de red para enviar tus datos.</strong> La aplicación funciona, en tu uso normal, de forma offline.</p>
+<p>NaGaveta <strong>no hace solicitudes de red para enviar tus documentos ni tus datos personales.</strong> La aplicación funciona, en tu uso normal, de forma offline. La única solicitud que la aplicación hace por sí sola es el recuento anónimo de uso del punto 6 (en Android), que no contiene datos tuyos.</p>
 <p>Las únicas interacciones con el "mundo externo" son <strong>iniciadas por ti</strong>:</p>
 <ul>
 <li><strong>Compartir un documento:</strong> al usar el botón de compartir, el propio sistema de tu celular abre las opciones (WhatsApp, correo electrónico, etc.) y el archivo va a donde <strong>tú elijas</strong>. A partir del momento en que compartes, el archivo pasa a ser tratado por la aplicación de destino que seleccionaste.</li>
@@ -150,15 +150,27 @@ p,ul{font-size:17px;}
 <p>En ese caso el archivo es <strong>copiado dentro de la caja fuerte, en tu dispositivo</strong>, y pasa a seguir todas las reglas de esta política. NaGaveta no accede al contenido de la otra aplicación — solamente recibe el archivo que <strong>tú</strong> enviaste.</p>
 <hr>
 <h2>6. Recopilación de datos y rastreo</h2>
-<p>NaGaveta <strong>no recopila datos sobre ti y no te rastrea.</strong> No utilizamos:</p>
+<p>NaGaveta <strong>no recopila datos personales sobre ti y no te rastrea.</strong> No utilizamos:</p>
 <ul>
-<li>Herramientas de análisis de uso (analytics);</li>
+<li>Herramientas de análisis de uso de terceros (como Google Analytics o Firebase);</li>
 <li>Reportes de fallas (crash reporting);</li>
 <li>Anuncios;</li>
 <li>Inicio de sesión o creación de cuenta;</li>
 <li>Ningún tipo de rastreo de comportamiento.</li>
 </ul>
-<p>La aplicación utiliza bibliotecas técnicas de terceros solo para funcionar (como tomar una foto, abrir un PDF, mostrar notificaciones y leer texto). El único componente que se comunica con Google es <strong>ML Kit</strong>, descrito en el punto 2 — transmite diagnóstico técnico y un identificador de instalación no vinculado, y nada más. Nosotros, en NaGaveta, no recibimos ni consultamos esos datos.</p>
+<p>La aplicación utiliza bibliotecas técnicas de terceros solo para funcionar (como tomar una foto, abrir un PDF, mostrar notificaciones y leer texto). <strong>ML Kit</strong>, descrito en el punto 2, transmite a Google diagnóstico técnico y un identificador de instalación no vinculado, y nada más. Nosotros, en NaGaveta, no recibimos ni consultamos esos datos.</p>
+<p><strong>Compras:</strong> la suscripción y el Premium se pagan a través de la propia tienda (Google Play o App Store). No recibimos datos de tarjeta ni de pago.</p>
+<h3>Recuento anónimo de uso (Android)</h3>
+<p>Para saber si las personas que instalan NaGaveta llegan a usarla, la aplicación para Android puede enviar, <strong>como máximo una vez cada uno</strong>, solo estos avisos:</p>
+<ul>
+<li>la aplicación se abrió por primera vez;</li>
+<li>llegaste a guardar 1, 2, 3, 4 o 5 elementos.</li>
+</ul>
+<p>Después de 5 elementos, <strong>no se envía ninguna cantidad adicional</strong> — tengas 6 o 5.000.</p>
+<p><strong>Qué va en cada aviso:</strong> solo el nombre del aviso (por ejemplo, "llegó a 3 elementos") y si vino de la versión de la tienda o de una versión de prueba. <strong>No va</strong> ningún identificador tuyo, del dispositivo ni de la instalación (ni el ID de publicidad), ni versión, idioma, país o modelo del dispositivo, y <strong>nada sobre tus elementos</strong>: nombre, tipo, categoría, contenido, texto leído (OCR), fechas, recordatorios, medicamentos, búsquedas ni archivos. La aplicación no lee nada de eso para armar el aviso — solo la cantidad.</p>
+<p><strong>Adónde va:</strong> a un servicio mantenido por RR Serviços en Google Apps Script, que solo <strong>suma</strong> los avisos: guarda el total de cada uno y el total por día. Ningún aviso se guarda individualmente, y el servicio no recibe ni guarda direcciones IP. Como en cualquier conexión a internet, la dirección IP y los datos técnicos de la conexión llegan a la infraestructura de Google, que opera el servicio; nosotros no tenemos acceso a ellos. Los totales diarios se conservan hasta 400 días; los totales generales, mientras exista el servicio.</p>
+<p><strong>Para qué sirve:</strong> saber, en números agregados, cuántas instalaciones empiezan realmente a usar la aplicación — incluso para evaluar la difusión de NaGaveta. Estos números no identifican a nadie y no se venden ni se comparten.</p>
+<p><strong>Quien ya usaba NaGaveta</strong> antes de que existiera esta función no envía ningún aviso. <strong>Para desactivarlo:</strong> Ajustes → Privacidad → Recuento anónimo de uso. Desactivado, no se envía nada más. En iPhone, este recuento no existe.</p>
 <hr>
 <h2>7. Permisos que la aplicación utiliza</h2>
 <ul>
@@ -167,16 +179,18 @@ p,ul{font-size:17px;}
 <li><strong>Ignorar la optimización de batería:</strong> solicitado una única vez, para que Android no posponga los avisos cuando el dispositivo queda inactivo.</li>
 <li><strong>Reprogramación después de reiniciar el dispositivo:</strong> para que tus recordatorios sigan funcionando después de que el celular se apaga y se vuelve a encender.</li>
 <li><strong>Vibración:</strong> para la vibración de las notificaciones.</li>
-<li><strong>Acceso a internet:</strong> la aplicación declara ese permiso, y es justo explicar por qué. Es exigido por dos componentes: el <strong>ML Kit de Google</strong>, que puede descargar una única vez el modelo de lectura de texto (punto 2), y la apertura del <strong>navegador</strong> en el atajo de gov.br (punto 3). **NaGaveta no usa ese permiso para enviar tus documentos ni tus datos a ningún lado** — no hay un servidor nuestro adonde enviarlos.</li>
+<li><strong>Acceso a internet:</strong> la aplicación declara ese permiso, y es justo explicar por qué. Es exigido por dos componentes: el <strong>ML Kit de Google</strong>, que puede descargar una única vez el modelo de lectura de texto (punto 2), y la apertura del <strong>navegador</strong> en el atajo de gov.br (punto 3). **NaGaveta no usa ese permiso para enviar tus documentos ni tus datos a ningún lado** — no hay un servidor nuestro adonde enviarlos. El recuento anónimo del punto 6 también usa internet, y no contiene datos tuyos.</li>
+<li><strong>Dispositivos Wi-Fi cercanos / red local:</strong> solo cuando usas el envío entre dispositivos cercanos, para encontrar el otro dispositivo y transferir los documentos <strong>directamente entre los dos</strong>, sin pasar por internet.</li>
+<li><strong>Micrófono:</strong> solo cuando tocas para buscar por voz. Tu voz se reconoce <strong>en el propio dispositivo</strong> y no se graba ni se envía.</li>
 </ul>
-<p><strong>NaGaveta no pide permiso de cámara ni de acceso a tus fotos/archivos.</strong> La cámara es abierta por la aplicación de cámara del propio celular, y la elección de archivos usa el selector del sistema. La aplicación <strong>tampoco accede</strong> a la ubicación, los contactos ni el micrófono.</p>
+<p><strong>NaGaveta no pide permiso de cámara ni de acceso a tus fotos/archivos.</strong> La cámara es abierta por la aplicación de cámara del propio celular, y la elección de archivos usa el selector del sistema. La aplicación <strong>tampoco accede</strong> a la ubicación ni a los contactos.</p>
 <hr>
 <h2>8. Tu PIN de acceso</h2>
 <p>El PIN que creas para proteger la aplicación se guarda <strong>solo en tu dispositivo</strong> y <strong>nunca en texto legible</strong>. Guardamos solamente una versión transformada e irreversible de él (un "hash"), usada solo para verificar si el PIN ingresado es correcto. El PIN original nunca se almacena ni se envía a ningún lado.</p>
 <p><strong>Declaración honesta:</strong> esa protección mantiene el PIN fuera de texto plano y fuera de cualquier servidor, pero no es un cifrado de nivel bancario. El PIN sirve como una capa de privacidad para el uso común del día a día.</p>
 <hr>
 <h2>9. Datos de niños</h2>
-<p>NaGaveta no está dirigida a niños y no recopila intencionalmente datos de menores. Como la aplicación no recopila datos de ningún usuario, nosotros no reunimos ninguna información de niños.</p>
+<p>NaGaveta no está dirigida a niños y no recopila intencionalmente datos de menores. Como la aplicación no recopila datos personales de ningún usuario — el recuento anónimo del punto 6 no identifica a nadie —, nosotros no reunimos ninguna información de niños.</p>
 <hr>
 <h2>10. Cambios en esta política</h2>
 <p>Podemos actualizar esta política en caso de que la aplicación cambie. Cuando eso ocurra, se modificará la fecha de "última actualización" que está arriba. Recomendamos revisar esta página de vez en cuando.</p>
