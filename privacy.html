@@ -104,10 +104,10 @@ p,ul{font-size:17px;}
 <hr>
 <h2>Summary in one sentence</h2>
 <p><strong>NaGaveta works locally: your documents, your notes, your data and your PIN stay on your device. No NaGaveta server receives your documents; the app requires no sign-up, does not track you and does not sync anything.</strong> The only sending that happens is what <strong>you yourself decide</strong> to do — when you share a file, when you export a backup copy, when you turn on Cloud backup (Android) or when you open the gov.br signing service. The text reading feature (OCR) works <strong>on the device itself</strong>.</p>
-<p>Four honest caveats, detailed below: <strong>(a)</strong> the system's own backup (iCloud on iPhone, Google on Android) may include the app data, according to your settings; <strong>(b)</strong> Google's text recognition component may send technical diagnostic data; <strong>(c)</strong> on Android, <strong>if you turn it on</strong>, <strong>Cloud backup</strong> — optional, free and off by default — sends a copy <strong>encrypted on the device</strong> to <strong>your own Google account</strong>, and neither we nor Google can open it (item 4-A); <strong>(d)</strong> on Android, the app may send an <strong>anonymous usage count</strong> — usage and Premium milestones, with the country of the Google Play account —, with no data about you or your documents, and you can turn it off (item 6).</p>
+<p>Four honest caveats, detailed below: <strong>(a)</strong> the system's own backup (iCloud on iPhone, Google on Android) may include the app data, according to your settings; <strong>(b)</strong> Google's text recognition component may send technical diagnostic data; <strong>(c)</strong> <strong>if you turn it on</strong>, <strong>Cloud backup</strong> — optional, free and off by default — sends a copy <strong>encrypted on the device</strong> to <strong>your own account</strong> (Google on Android, iCloud on iPhone), and neither we nor Google or Apple can open it (item 4-A); <strong>(d)</strong> on Android, the app may send an <strong>anonymous usage count</strong> — usage and Premium milestones, with the country of the Google Play account —, with no data about you or your documents, and you can turn it off (item 6).</p>
 <hr>
 <h2>1. What data NaGaveta keeps and where it stays</h2>
-<p>All your data stays <strong>on your device</strong>. NaGaveta <strong>has no server and no cloud storage of its own for your data</strong> — there is no service of ours for your documents to go to. (Our only service is the one that adds up the anonymous count in item 6, which receives nothing from your documents. Cloud backup, in item 4-A, uses <strong>your</strong> Google account when you turn it on, not a service of ours.)</p>
+<p>All your data stays <strong>on your device</strong>. NaGaveta <strong>has no server and no cloud storage of its own for your data</strong> — there is no service of ours for your documents to go to. (Our only service is the one that adds up the anonymous count in item 6, which receives nothing from your documents. Cloud backup, in item 4-A, uses <strong>your</strong> Google account (Android) or <strong>your</strong> iCloud (iPhone) when you turn it on, not a service of ours.)</p>
 <p>Only the following is kept on your device, in a private area that only the app itself can access:</p>
 <ul>
 <li>The <strong>documents, photos and PDFs</strong> you capture or import;</li>
@@ -115,7 +115,7 @@ p,ul{font-size:17px;}
 <li>The <strong>titles, categories, expiry dates, reminders and medicines</strong> you enter;</li>
 <li>Your access <strong>PIN</strong> and your preferences.</li>
 </ul>
-<p>The app does not send, copy or sync any of this outside your device on its own. The only exception is <strong>Cloud backup</strong> (Android), and only if <strong>you</strong> turn it on: it keeps an <strong>encrypted</strong> copy in your Google account (item 4-A). NaGaveta does not sync between devices.</p>
+<p>The app does not send, copy or sync any of this outside your device on its own. The only exception is <strong>Cloud backup</strong>, and only if <strong>you</strong> turn it on: it keeps an <strong>encrypted</strong> copy in your Google account (Android) or in your iCloud (iPhone) (item 4-A). NaGaveta does not sync between devices.</p>
 <p><strong>System backup (Android):</strong> Android may automatically back up app data to your Google account, according to your device settings, and NaGaveta data may be included in it. That backup belongs to the system, not to NaGaveta.</p>
 <p><strong>System backup (iPhone) — please read:</strong> if <strong>iCloud Backup</strong> is enabled on your iPhone, NaGaveta data may be part of the device backup, as happens with other apps, according to your iOS settings. That backup is an operating-system feature, performed by Apple into <em>your</em> iCloud account — <strong>it is not NaGaveta syncing</strong>, and we still have no access whatsoever to your data. You control it in Settings → your name → iCloud.</p>
 <p><strong>Protection of stored files:</strong> on iPhone, the app declares the highest level of iOS Data Protection. While the device is locked, the system keeps NaGaveta files encrypted at rest. The app does not add encryption of its own on top of that.</p>
@@ -127,13 +127,13 @@ p,ul{font-size:17px;}
 <p><strong>Honest statement:</strong> ML Kit is a component provided by Google. Although the content of your document is not sent, that component may: (a) download the text recognition model once; and (b) transmit to Google <strong>technical diagnostic data and an installation identifier</strong>, not linked to your identity. According to the privacy manifests published by the component itself, this data is <strong>not used for cross-app tracking or advertising</strong>. This is part of Google's component, not a feature created by NaGaveta, and it never includes your documents. Apart from it, the only transmission is the anonymous usage count described in item 6. To understand this handling, consult Google's Privacy Policy.</p>
 <hr>
 <h2>3. Internet connection</h2>
-<p>NaGaveta <strong>does not make network requests to send your documents or your personal data to a server of its own.</strong> In normal use, the app works offline. The requests the app makes itself are the anonymous usage count in item 6 (on Android), which contains no data of yours, and — <strong>only if you turn it on</strong> — Cloud backup in item 4-A, which sends an encrypted copy to your Google account and, with automatic backup on, does so by itself when you open the app.</p>
+<p>NaGaveta <strong>does not make network requests to send your documents or your personal data to a server of its own.</strong> In normal use, the app works offline. The requests the app makes itself are the anonymous usage count in item 6 (on Android), which contains no data of yours, and — <strong>only if you turn it on</strong> — Cloud backup in item 4-A, which sends an encrypted copy to your Google account (Android) or your iCloud (iPhone) and, with automatic backup on, does so by itself when you open the app.</p>
 <p>The only interactions with the "outside world" are <strong>started by you</strong>:</p>
 <ul>
 <li><strong>Sharing a document:</strong> when you use the share button, your phone's own system opens the options (WhatsApp, email, etc.) and the file goes wherever <strong>you choose</strong>. From the moment you share it, the file is handled by the destination app you selected.</li>
 <li><strong>Signing at gov.br:</strong> when you tap this option, NaGaveta opens the address of the official government signing service (gov.br is the Brazilian government's official digital signature service) in your phone's browser. The app only opens the address; <strong>your document does not go with it</strong> — the whole interaction happens between you and the gov.br website.</li>
 <li><strong>Exporting a backup copy:</strong> see item 4 below.</li>
-<li><strong>Cloud backup (Android):</strong> see item 4-A below.</li>
+<li><strong>Cloud backup (Android and iPhone):</strong> see item 4-A below.</li>
 <li><strong>Buying Premium:</strong> the purchase happens in the store itself (Google Play or App Store).</li>
 </ul>
 <p>In every case, sending any information to third parties is <strong>your choice</strong>.</p>
@@ -149,8 +149,8 @@ p,ul{font-size:17px;}
 </ul>
 <p>When you import a backup copy ("Import backup copy"), the app reads the file <strong>inside your device</strong> and puts the documents back into the vault. Nothing is sent out during this process.</p>
 <hr>
-<h2>4-A. Cloud backup (Android) — optional</h2>
-<p>On Android, NaGaveta offers <strong>Cloud backup</strong>. It is <strong>optional, free for everyone and off by default</strong>: it only works if you turn it on in menu → Backup → Cloud backup. The app works normally without it. It is not sync: it is a copy to restore.</p>
+<h2>4-A. Cloud backup — optional</h2>
+<p>NaGaveta offers <strong>Cloud backup</strong>. It is <strong>optional, free for everyone and off by default</strong>: it only works if you turn it on in menu → Backup → Cloud backup. The app works normally without it. It is not sync: it is a copy to restore.</p>
 <ul>
 <li><strong>Where it is kept:</strong> in <strong>your own Google account</strong>, in the app's private folder in Google Drive (the "appDataFolder"), which does not show up among your files. NaGaveta has no server or account of its own for this.</li>
 <li><strong>Minimum authorization:</strong> when you turn it on, Google asks for your authorization for NaGaveta to access <strong>only its own private folder</strong> in your Drive (the "drive.appdata" permission). NaGaveta does not see or read any other file in your Drive and does not receive your email, name or password.</li>
@@ -161,6 +161,14 @@ p,ul{font-size:17px;}
 <li><strong>Turning off and deleting:</strong> when turning it off, you choose to keep the backups in your account or delete them; when deleting, the app also revokes the access you granted. You can also remove the access at any time in your Google Account settings.</li>
 </ul>
 <p>Storage and transmission to Google Drive are carried out by Google, under Google's Privacy Policy. We do not receive a copy of your backup.</p>
+<p><strong>On iPhone</strong>, Cloud backup works the same way — optional, free, off by default, encrypted on the device with the same Recovery Key before it leaves — with these differences:</p>
+<ul>
+<li><strong>Where it is kept:</strong> in <strong>your own iCloud</strong>, in the app's <strong>private</strong> CloudKit database, which only you can access with your Apple Account. NaGaveta has no server of its own for this and does not receive your Apple Account email, name or password. It uses your iCloud storage space.</li>
+<li><strong>No extra authorization:</strong> it uses the iCloud account you are signed in to on the iPhone. If iCloud is off or full, the app tells you and nothing is sent.</li>
+<li><strong>The key:</strong> the Recovery Key is kept in the iPhone's Keychain, <strong>on this device only</strong> (it is not synced to iCloud Keychain). On a new iPhone you type the key you wrote down.</li>
+<li><strong>Turning off and deleting:</strong> when turning it off, you choose to keep the backups in your iCloud or delete them. You can also delete them in Settings → your name → iCloud → Manage Storage.</li>
+</ul>
+<p>Storage and transmission to iCloud are carried out by Apple, under Apple's Privacy Policy. We do not receive a copy of your backup.</p>
 <hr>
 <h2>5. Receiving documents from other apps</h2>
 <p>You can send a file to NaGaveta from another app (an email attachment, a PDF from WhatsApp, a file from Drive), using that app's "Share" option and choosing NaGaveta. On Android, shared <strong>text</strong> (a message, part of an email) opens as a <strong>note</strong>, and is only kept when you tap Save.</p>
@@ -198,7 +206,7 @@ p,ul{font-size:17px;}
 <li><strong>Rescheduling after restarting the device:</strong> so that your reminders keep working after the phone is switched off and on again.</li>
 <li><strong>Vibration:</strong> for the vibration of notifications.</li>
 <li><strong>User-initiated transfers:</strong> on Android 14 or newer, so that Cloud backup keeps uploading or restoring even if you leave the app, with a notification showing the progress. Only used when Cloud backup is on.</li>
-<li><strong>Internet access:</strong> the app declares this permission, and it is only fair to explain why. It is used by <strong>Google's ML Kit</strong>, which may download the text reading model once (item 2), by the opening of the <strong>browser</strong> in the gov.br shortcut (item 3), by the store purchase and by the anonymous count in item 6, which contains no data of yours. <strong>NaGaveta does not use this permission to send your documents to a server of its own</strong> — there is no server of ours to send them to. Your documents only leave through the internet if <strong>you</strong> turn on Cloud backup (item 4-A), encrypted and to your Google account.</li>
+<li><strong>Internet access:</strong> the app declares this permission, and it is only fair to explain why. It is used by <strong>Google's ML Kit</strong>, which may download the text reading model once (item 2), by the opening of the <strong>browser</strong> in the gov.br shortcut (item 3), by the store purchase and by the anonymous count in item 6, which contains no data of yours. <strong>NaGaveta does not use this permission to send your documents to a server of its own</strong> — there is no server of ours to send them to. Your documents only leave through the internet if <strong>you</strong> turn on Cloud backup (item 4-A), encrypted and to your Google account (Android) or your iCloud (iPhone).</li>
 <li><strong>Nearby Wi-Fi devices / local network:</strong> only when you use sending between nearby devices, to find the other device and transfer the documents <strong>directly between the two</strong>, without going through the internet.</li>
 <li><strong>Microphone:</strong> only when you tap to search by voice. Your speech is recognised <strong>on the device itself</strong> and is neither recorded nor sent.</li>
 </ul>
