@@ -98,7 +98,7 @@ p,ul{font-size:17px;}
 
 <h1>Privacy Policy</h1>
 
-<p><strong>Last updated:</strong> 30 September 2026</p>
+<p><strong>Last updated:</strong> 1 October 2026</p>
 <p>NaGaveta is an app developed by <strong>RR Serviços</strong> to help you keep and organise your personal documents and to remember important dates (expiry dates, reminders and medicine times).</p>
 <p>This policy explains, clearly and honestly, how NaGaveta handles (or rather, does <strong>not</strong> handle) your data.</p>
 <hr>
@@ -174,6 +174,18 @@ p,ul{font-size:17px;}
 <p>You can send a file to NaGaveta from another app (an email attachment, a PDF from WhatsApp, a file from Drive), using that app's "Share" option and choosing NaGaveta. On Android, shared <strong>text</strong> (a message, part of an email) opens as a <strong>note</strong>, and is only kept when you tap Save.</p>
 <p>In that case the content is <strong>copied into the vault, on your device</strong>, and comes to follow all the rules of this policy. NaGaveta does not access the content of the other app — it only receives what <strong>you</strong> sent.</p>
 <hr>
+<h2>5-A. Finding and organizing documents in folders you allow (Android)</h2>
+<p>Since version 4.0, on Android, NaGaveta can <strong>search</strong> for documents in folders on your phone and, if you want, <strong>file them into drawers</strong> for you. This only happens in the folders <strong>you</strong> choose — for example Documents, Screenshots or the folder where WhatsApp saves documents you received — through Android's own folder picker, which asks for your confirmation.</p>
+<ul>
+<li><strong>Read-only:</strong> the access requested is read-only. NaGaveta <strong>never deletes, moves, renames or changes</strong> your files. When it saves a document, it makes a <strong>copy</strong> in the vault; the original stays where it was.</li>
+<li><strong>WhatsApp:</strong> NaGaveta does <strong>not access</strong> chats, contacts, messages, backups or the WhatsApp app. If you allow it, it only reads the folder where WhatsApp itself saves, on this device, the documents you received.</li>
+<li><strong>All on your device:</strong> reading the files, text recognition (OCR, section 2), searching and choosing the drawer happen on your phone. Neither the files, nor their text, nor what you search for are sent to any server.</li>
+<li><strong>Local search index:</strong> so that the next search is fast, NaGaveta keeps, in the app's private storage, the name of each file in the allowed folders, the beginning of the text read and the recognized type. This index is <strong>not included</strong> in the exported backup copy or in Cloud backup, and never leaves the device. When you remove access to a folder, everything that came from it is deleted from the index; files that leave the folder leave the index on the next search.</li>
+<li><strong>Searching doesn't save:</strong> finding and opening a document creates no item in NaGaveta. Only what you ask to save goes into the vault.</li>
+<li><strong>Automatic organizing (optional, off by default):</strong> if you turn it on, Android runs a check of the allowed folders every so often, when the system allows. NaGaveta only notifies you when there's something new, and the notification shows no file name or content.</li>
+<li><strong>Removing access:</strong> on the feature's screen, tap the icon next to the folder. The permission is returned to Android. Nothing is deleted — neither the folder nor what was already saved.</li>
+</ul>
+<hr>
 <h2>6. Data collection and tracking</h2>
 <p>NaGaveta <strong>does not collect personal data about you and does not track you.</strong> We do not use:</p>
 <ul>
@@ -191,6 +203,7 @@ p,ul{font-size:17px;}
 <li>the app was opened for the first time;</li>
 <li>you reached 1, 2, 3, 4 or 5 stored items;</li>
 <li>since 30/09/2026, if it happens: the Premium screen was shown to someone who is not Premium; a purchase was started; and a <strong>new</strong> purchase activated Premium. Restoring a purchase, finding an old subscription or purchase again and the entitlement of people who already used the app do <strong>not</strong> count as a new purchase.</li>
+<li>since version 4.0, if it happens: that you asked NaGaveta, for the first time, to organize your documents; that it saved documents this way for the first time; and that you turned on automatic organizing. <strong>Nothing</strong> about the documents, the folders, what you searched for or the results — and the find-a-document feature sends no signal at all.</li>
 </ul>
 <p>After 5 items, <strong>no further count is sent</strong> — whether you have 6 or 5,000.</p>
 <p><strong>What each notice contains:</strong> only the name of the notice (for example, "reached 3 items"), whether the installation already existed when this feature arrived or is new, whether it came from the store version or a test version and, since 30/09/2026, the <strong>country of your Google Play account</strong> — the two-letter code Google Play itself reports for billing (for example, "BR"). <strong>It is not your location:</strong> the app does not use GPS, network or IP address for it, and the account country may differ from where you are. When Play does not report it, "unknown" is sent. It contains <strong>no</strong> identifier of you, your device or the installation (not even the advertising ID), no version, language or device model, and <strong>nothing about your items</strong>: name, type, category, content, note text, recognised text (OCR), dates, reminders, medicines, searches or files. The app does not read any of that to build the notice — only the quantity.</p>
@@ -208,9 +221,11 @@ p,ul{font-size:17px;}
 <li><strong>User-initiated transfers:</strong> on Android 14 or newer, so that Cloud backup keeps uploading or restoring even if you leave the app, with a notification showing the progress. Only used when Cloud backup is on.</li>
 <li><strong>Internet access:</strong> the app declares this permission, and it is only fair to explain why. It is used by <strong>Google's ML Kit</strong>, which may download the text reading model once (item 2), by the opening of the <strong>browser</strong> in the gov.br shortcut (item 3), by the store purchase and by the anonymous count in item 6, which contains no data of yours. <strong>NaGaveta does not use this permission to send your documents to a server of its own</strong> — there is no server of ours to send them to. Your documents only leave through the internet if <strong>you</strong> turn on Cloud backup (item 4-A), encrypted and to your Google account (Android) or your iCloud (iPhone).</li>
 <li><strong>Nearby Wi-Fi devices / local network:</strong> only when you use sending between nearby devices, to find the other device and transfer the documents <strong>directly between the two</strong>, without going through the internet.</li>
+<li><strong>Folders you choose (Android):</strong> read-only, granted by you in Android's folder picker, for the feature in section 5-A. It can be removed at any time.</li>
+<li><strong>Background tasks (Android):</strong> only if you turn on automatic organizing (section 5-A), so Android can run the check when it allows. There is no foreground service.</li>
 <li><strong>Microphone:</strong> only when you tap to search by voice. Your speech is recognised <strong>on the device itself</strong> and is neither recorded nor sent.</li>
 </ul>
-<p><strong>NaGaveta does not ask for camera permission or for access to your photos/files.</strong> The camera is opened by your phone's own camera app, and file selection uses the system picker. The app <strong>also does not access</strong> location or contacts, and does not ask for the device accounts permission: the Google account for Cloud backup is chosen on Google's own screen.</p>
+<p><strong>NaGaveta does not ask for camera permission or for access to your photos/files.</strong> The camera is opened by your phone's own camera app, and choosing files and folders uses the system picker. The app <strong>also does not access</strong> location or contacts, and does not ask for the device accounts permission: the Google account for Cloud backup is chosen on Google's own screen.</p>
 <hr>
 <h2>8. Your access PIN</h2>
 <p>The PIN you create to protect the app is kept <strong>only on your device</strong> and <strong>never in readable text</strong>. We keep only a transformed and irreversible version of it (a "hash"), used solely to check whether the PIN you typed is correct. The original PIN is never stored or sent anywhere.</p>
