@@ -98,7 +98,7 @@ p,ul{font-size:17px;}
 
 <h1>Privacy Policy</h1>
 
-<p><strong>Last updated:</strong> 1 October 2026</p>
+<p><strong>Last updated:</strong> 2 October 2026</p>
 <p>NaGaveta is an app developed by <strong>RR Serviços</strong> to help you keep and organise your personal documents and to remember important dates (expiry dates, reminders and medicine times).</p>
 <p>This policy explains, clearly and honestly, how NaGaveta handles (or rather, does <strong>not</strong> handle) your data.</p>
 <hr>
@@ -186,6 +186,20 @@ p,ul{font-size:17px;}
 <li><strong>Removing access:</strong> on the feature's screen, tap the icon next to the folder. The permission is returned to Android. Nothing is deleted — neither the folder nor what was already saved.</li>
 </ul>
 <hr>
+<h2>5-B. Search your iPhone — find and organize documents (iPhone)</h2>
+<p>Since version 4.0, on iPhone, NaGaveta can <strong>search</strong> for documents in your photos and files and, if you want, <strong>file them in drawers</strong> for you. You decide <strong>once</strong>, on the “Search your iPhone” screen, and iOS itself asks you to confirm each step. The same permission is used to find, to organize and for automatic organizing.</p>
+<ul>
+<li><strong>Photos:</strong> with the Photos permission you give — all photos or only the ones you choose. Before reading the text of a photo, NaGaveta uses Apple’s image recognition, <strong>on the device and without internet</strong>, to tell whether it looks like a document; only those are read. No photo is changed, moved or deleted.</li>
+<li><strong>Files (iCloud Drive and On My iPhone):</strong> only the place you show in the Files app and confirm with “Open”. NaGaveta <strong>only reads</strong>: it never deletes, moves, renames or changes your files. When it saves a document, it makes a <strong>copy</strong> in the vault; the original stays where it was.</li>
+<li><strong>Files that are only in iCloud:</strong> they show up in search <strong>by name</strong>, without being downloaded. Their content is only downloaded when you ask (“Read these too”), when you open a result or when you organize — a few at a time. Automatic organizing <strong>downloads nothing</strong> from iCloud.</li>
+<li><strong>WhatsApp and other apps:</strong> iOS does not let one app read another app’s files. NaGaveta <strong>does not access</strong> chats, contacts or WhatsApp; to bring in a document, use Share → NaGaveta or save it to the Files app.</li>
+<li><strong>Everything on the device:</strong> reading the files and photos, text recognition (OCR, section 2), search and choosing the drawer all happen on your iPhone. Neither the files, nor the photos, nor their text, nor what you search for is sent to any server.</li>
+<li><strong>Local search index:</strong> to make the next search fast, NaGaveta keeps, in the app’s private area, the name of each file, the beginning of the text read and the recognized type. This index is <strong>not included</strong> in the exported backup or in Cloud backup, and never leaves the device.</li>
+<li><strong>Searching doesn’t save:</strong> finding and opening a document creates no item in NaGaveta. Only what you choose to save goes into the vault.</li>
+<li><strong>Automatic organizing (optional, off by default):</strong> if you turn it on, iOS decides when to run it — only with the iPhone unlocked, and it may take days. NaGaveta only notifies you when there is something new, and the notification <strong>does not show</strong> file names or content.</li>
+<li><strong>Removing access:</strong> in “Find a document” or “Organize my documents”, tap Adjust → “Stop searching the iPhone”. Nothing is deleted — neither your files nor what was already saved. Photos access belongs to iOS: to remove it, use Settings → NaGaveta → Photos.</li>
+</ul>
+<hr>
 <h2>6. Data collection and tracking</h2>
 <p>NaGaveta <strong>does not collect personal data about you and does not track you.</strong> We do not use:</p>
 <ul>
@@ -225,7 +239,18 @@ p,ul{font-size:17px;}
 <li><strong>Background tasks (Android):</strong> only if you turn on automatic organizing (section 5-A), so Android can run the check when it allows. There is no foreground service.</li>
 <li><strong>Microphone:</strong> only when you tap to search by voice. Your speech is recognised <strong>on the device itself</strong> and is neither recorded nor sent.</li>
 </ul>
-<p><strong>NaGaveta does not ask for camera permission or for access to your photos/files.</strong> The camera is opened by your phone's own camera app, and choosing files and folders uses the system picker. The app <strong>also does not access</strong> location or contacts, and does not ask for the device accounts permission: the Google account for Cloud backup is chosen on Google's own screen.</p>
+<p><strong>On iPhone</strong>, each permission is requested by iOS itself, when you use the feature, and can be removed in Settings → NaGaveta:</p>
+<ul>
+<li><strong>Camera:</strong> to photograph your documents.</li>
+<li><strong>Photos:</strong> to import images of documents and, if you allow it (section 5-B), to search for documents in your photos — on the device.</li>
+<li><strong>Files:</strong> only the places you show in the Files app (section 5-B), read-only.</li>
+<li><strong>Face ID:</strong> to unlock the app.</li>
+<li><strong>Notifications:</strong> for reminders, medicines and automatic-organizing notices.</li>
+<li><strong>Local network:</strong> only when sending to nearby devices.</li>
+<li><strong>Microphone and speech recognition:</strong> only for voice search; speech is recognized on the device.</li>
+<li><strong>Background tasks:</strong> only if you turn on automatic organizing (section 5-B), when iOS allows.</li>
+</ul>
+<p><strong>On Android, NaGaveta does not ask for camera permission or for access to your photos/files.</strong> The camera is opened by your phone's own camera app, and choosing files and folders uses the system picker. The app <strong>also does not access</strong> location or contacts, and does not ask for the device accounts permission: the Google account for Cloud backup is chosen on Google's own screen.</p>
 <hr>
 <h2>8. Your access PIN</h2>
 <p>The PIN you create to protect the app is kept <strong>only on your device</strong> and <strong>never in readable text</strong>. We keep only a transformed and irreversible version of it (a "hash"), used solely to check whether the PIN you typed is correct. The original PIN is never stored or sent anywhere.</p>
